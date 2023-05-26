@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: "Tajawal" !important;
+}
+
+
+.navbar.fixed-top+.page-body-wrapper {
+    padding-top: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+body {
+    background-color: #f2edf3;
+}
+
+.last {
+    height: 85vh;
+    width: 65%;
+    /* background-image: url(../../images/pexels-cottonbro-studio-3202235.jpg); */
+}
+
+.CARD {
+    width: 75% !important;
+    height: 339px !important;
+}
+
+.card {
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+
+
+.SV {
+    width: 50px;
+
+}
+
+.del {
+    background-color: #ffffff;
+    border: 2px solid #9A9CE9;
+    color: #9A9CE9;
+}
+
+.del:hover {
+    background-color: #9A9CE9;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.card-footer {
+    background-color: #e5e6ff;
+    border-radius: 0 0 30px 30px !important;
+
+}
+
+.badge-tag {
+    background-color: #AADDEE;
+    color: #fff;
+    font-weight: normal;
+    display: inline-flex;
+    gap: 0.5em;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+}
+
+.avatars {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.avatars__item {
+    background-color: #596376;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    height: 30px;
+    width: 30px;
+    transition: margin 0.1s ease-in-out;
+    overflow: hidden;
+    margin-left: -10px;
+}
+
+.avatars__item:first-child {
+    z-index: 5;
+}
+
+.avatars__item:nth-child(2) {
+    z-index: 4;
+}
+
+.avatars__item:nth-child(3) {
+    z-index: 3;
+}
+
+.avatars__item:nth-child(4) {
+    z-index: 2;
+}
+
+.avatars__item:nth-child(5) {
+    z-index: 1;
+}
+
+.avatars__item:last-child {
+    z-index: 0;
+}
+
+.avatars__item img {
+    width: 100%;
+}
+
+.card-p {
+    float: right;
+    font-size: 17px;
+    font-family: 'Tajawal', sans-serif;
+    color: #6E7079;
+    clear: both;
+    margin-right: -5px;
+    margin-bottom: 20px;
+
+}
+
+.card-span {
+    margin-right: 30px;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.smalllogo {
+    /* margin-left: 180px; */
+    margin-top: -8px;
+    margin-right: 25px;
+    width: 135px;
+    height: 40px;
+}
+
+.specialty {
+    margin-right: 45px;
+}
+
+.email {
+    margin-right: 10px;
+}
+
+.phone {
+    margin-right: 37px;
+}
+
+.address {
+    margin-right: 42px;
+}
+
+h4 {
+    margin-right: 56px;
+}
+
+.descriptoon {
+    margin-top: -24px;
+    margin-right: -9px;
+    text-align: center;
+    padding-right: 5px;
+    font-size: 15.5px;
+    color: #6E7079;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+@media only screen and (max-width: 990px) {
+    .last {
+        height: 113vh;
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .des {
+        font-size: 15px;
+        margin-left: 104px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .des {
+        font-size: 15px;
+        margin-left: 133px;
+        margin-right: -19px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .des {
+        font-size: 12px;
+        margin-left: 155px;
+        margin-right: -19px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .card-p {
+      font-size: 11px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .card-span {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 570px) {
+    .last {
+        height: 100vh;
+        width: 88%;
+    }
+    
+}
+/* @media only screen and (max-width: 1250px) {
+    .container {
+      display: block;
+    }
+} */

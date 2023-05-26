@@ -1,0 +1,70 @@
+
+
+#card{
+background-color:#ffffff;
+border-radius: 50px;
+}
+
+#button{
+    background: #6251A2;
+    border: 1px solid #ffffff;
+    width: 150px;
+    font-size: medium;
+    margin-top: 15px;
+    font-family: 'Tajawal';
+    
+
+}
+
+#button:hover{
+    background-color: #7476bcae!important;
+
+}
+
+.formclass{
+    box-shadow: 0.5rem 0.5rem rgba(163, 220, 239, 0.3);
+
+
+}
+
+.textselect{
+    font-family: 'Tajawal';
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    display: flex;
+    margin-top: -30px;
+}
+.Box{
+    margin-top: 55px;
+}
+#selectBox{
+    margin-top: 30px;
+
+
+}
+
+/* 
+        .card {
+            background-color: #a83d3d;
+          
+        }
+            
+        .btn-primary {
+                  background: #9A9CE9;
+                  border: 1px solid #a83434
+               }
+
+        .btn-primary:hover {
+                background-color: #A3DCEF;
+                border: 2px solid #fff;
+                }
+
+         select{
+                    box-shadow: 0.5rem 0.5rem rgba(163, 220, 239, 0.3);
+
+                }
+
+                textarea{
+                    box-shadow: 0.5rem 0.5rem rgba(163, 220, 239, 0.3);
+                } */

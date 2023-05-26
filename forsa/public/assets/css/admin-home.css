@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: "Tajawal" !important;
+}
+.cardBg{
+    background-image: url("../images/circle11.png") ,  -webkit-linear-gradient(right,#6251A2,#9A9CE9,#A2DCEE) !important;  
+    background-repeat: no-repeat !important;
+    background-size: 200px,100% !important;
+  }
+  .card .card-body {
+    height: 245px;
+  }
+  .svg{
+    float: right;
+    margin-right: 20px;
+  }
+  .mb-5{
+    float: right;
+    margin-top: 135px;
+    margin-right: -83px;
+  }
+  .card-text{
+    float: right;
+    margin-top: 85px;
+    margin-right: -54px;
+  }

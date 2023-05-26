@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: "Tajawal" !important;
+  
+}
+.col-md-10{
+    background-color: white;
+    border-radius: 5px;
+    direction: rtl;
+}
+input::placeholder {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+
+.name{
+    margin-left: 25px;
+    margin-right: -5px;
+}
+.base{
+    margin-top: 38px;
+    margin-left: 51px; 
+    margin-right: 51px;
+}
+input{
+    height: 40px;
+    border: 0px;
+    background-color: #F4F5FA;
+    border-radius: 5px;
+    
+}
+
+select{
+    height: 40px;
+    border: 0px;
+    background-color: #F4F5FA;
+    border-radius: 5px;
+}
+form{
+    width: 90%;
+    margin-right: 45px;
+}
+  @media only screen and (max-width: 768px) {
+ 
+    .md-col{
+      display: flex;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .name {
+        margin-right: 30px;
+    }
+    .w-lg-60{
+      width:100% !important;
+    }
+    form{
+      width:100%;
+      margin-right: 0px;
+    }
+  }
+ .row{
+    margin-top: 70px;
+ }
+ 
+/* input::placeholder {
+    font-size: 12px;
+  }
+  .in_input{
+    margin-left: -40px;
+    margin-top: 10px;
+    z-index: 9;
+    background-color: white;
+  }
+  .last-input{
+    margin-right:-100px;
+    z-index: 9;
+  
+} */

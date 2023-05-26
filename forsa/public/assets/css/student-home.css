@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Tajawal" !important;
+}
+.navbar.fixed-top + .page-body-wrapper {
+  padding-top: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+body{
+  background-color: #f2edf3;
+
+}
+a{
+  text-decoration: none;
+  }
+.card-body{border-radius: 20px!important;}
+/* body{
+    background: -webkit-linear-gradient(342deg,#E7E8FF, #9A9CE9 );
+    background: linear-gradient(120grad, #E7E8FF, #9A9CE9 );
+} */
+.CARD{
+    width:60% !important;
+    /* height: 339px !important; */
+}
+
+.card{
+    border-radius: 30px !important;
+    width: 80% !important;
+}
+/* .circle{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+} */
+.SV{
+    width:50px;
+
+}
+.edit{
+    background-color: #9A9CE9;
+    color:#ffffff;
+    border:2px solid #9A9CE9;
+}
+.edit:hover{
+    background-color: #9497f0;
+    color:#ffffff;
+}
+/* .del{
+    background-color: #ffffff;
+    border:2px solid #9A9CE9;
+    color:#9A9CE9;
+}
+.del:hover{
+    background-color: #9A9CE9;
+    border:2px solid #ffffff;
+    color:#ffffff;
+} */
+
+/* search */
+.box{
+  position: relative;
+}
+input::placeholder{
+  font-size: 15px;
+}
+.input {
+  padding: 0px 7px!important;
+  width: 80px;
+  height: 47px;
+  background: none;
+  border: 1px solid #7476BC;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  margin-left: 10px!important;
+  color: #7476BC;
+  outline: none;
+  transition: .5s;
+}
+.box input{
+  width: 50%;
+  background: #ffff;
+  border-radius: 10px;
+}
+.send:hover{
+    background-color: #42c2aa!important;
+}
+.card-footer {
+    background-color: #e5e6ff;
+    border-radius:0 0 30px 30px !important;
+
+}
+.badge-tag {
+    background-color: #AADDEE;
+    color: #fff;
+    font-weight: normal;
+    display: inline-flex;
+    gap: 0.5em;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+  }
+
+  .avatars {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    flex-direction: row;
+  }
+  .avatars__item {
+    background-color: #596376;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    height: 30px;
+    width: 30px;
+    transition: margin 0.1s ease-in-out;
+    overflow: hidden;
+    margin-left: -10px;
+  }
+  .avatars__item:first-child {
+    z-index: 5;
+  }
+  .avatars__item:nth-child(2) {
+    z-index: 4;
+  }
+  .avatars__item:nth-child(3) {
+    z-index: 3;
+  }
+  .avatars__item:nth-child(4) {
+    z-index: 2;
+  }
+  .avatars__item:nth-child(5) {
+    z-index: 1;
+  }
+  .avatars__item:last-child {
+    z-index: 0;
+  }
+  .avatars__item img {
+    width: 100%;
+  }
+
+  input::placeholder{
+    font-size: 15px;
+}
+
+.input {
+    padding-right:19px!important;
+    width: 80px;
+    height: 47px;
+    background: none;
+    border: 1px solid #6251A2;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    margin-left: 10px!important;
+    color: #7476BC;
+    outline: none;
+    transition: .5s;
+}
+.box input{
+    width: 50%;
+    background: #ffff;
+    border-radius: 10px;
+    position: relative;
+}
+.btn_ser{
+  width:50px!important;
+  border-radius: 10px 0px 0px 10px!important;
+  border:none;
+  padding: 12.7px 10px!important;
+  background-color: #6251A2!important;
+  position: relative;
+  left:61px;
+  transition: all 0.5s;
+}
+.btn_ser:hover{
+  background-color: #7476bcae !important;
+}
+.pagination{
+  margin-bottom: 0;
+}
+.pagination a {
+  color: black;
+  background-color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.btn_ser:hover{
+  width:50px!important;
+  border-radius: 10px 0px 0px 10px!important;
+  border:none;
+  padding: 12.7px 10px!important;
+  background-color: #6251A2!important;
+  position: relative;
+  left:61px;
+}
+.box svg{
+    z-index:99;
+}
+.btnH:hover{
+  background-color: #7476bcae!important;
+}
